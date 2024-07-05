@@ -1,19 +1,32 @@
 # Favorite apps for dock
+# apps=(
+# 	"google-chrome.desktop"
+# 	"Alacritty.desktop"
+# 	"code.desktop"
+# 	"WhatsApp.desktop"
+# 	"signal-desktop.desktop"
+# 	"spotify.desktop"
+# 	"typora.desktop"
+# 	"Zoom.desktop"
+# 	"pinta_pinta.desktop"
+# 	"com.github.xournalpp.xournalpp.desktop"
+# 	"steam.desktop"
+# 	"1password.desktop"
+# 	"org.gnome.Settings.desktop"
+# 	"org.gnome.Nautilus.desktop"
+# )
 apps=(
-	"google-chrome.desktop"
+	"firefox_firefox.desktop"
+	"brave-browser.desktop"
+	"org.gnome.Nautilus.desktop"
 	"Alacritty.desktop"
 	"code.desktop"
-	"WhatsApp.desktop"
-	"signal-desktop.desktop"
+	"com.usebottles.bottles.desktop"
+	"com.usebottles.bottles.desktop"
+	"org.remmina.Remmina.desktop"
 	"spotify.desktop"
-	"typora.desktop"
-	"Zoom.desktop"
-	"pinta_pinta.desktop"
-	"com.github.xournalpp.xournalpp.desktop"
 	"steam.desktop"
-	"1password.desktop"
 	"org.gnome.Settings.desktop"
-	"org.gnome.Nautilus.desktop"
 )
 
 # Array to hold installed favorite apps
