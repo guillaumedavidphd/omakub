@@ -1,0 +1,1 @@
+sudo apt install texlive texlive-latex-extra texlive-fonts-extra texlive-bibtex-extra biber texlive-extra-utils texlive-latex-recommended texlive-luatex texlive-science texlive-xetex
