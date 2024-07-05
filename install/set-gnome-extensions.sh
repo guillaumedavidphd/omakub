@@ -1,5 +1,7 @@
-sudo apt install -y pipx
+sudo apt install -y pipx lm-sensors
 pipx install gnome-extensions-cli --system-site-packages
+
+sudo sensors-detect --auto
 
 # Turn off default Ubuntu extensions
 gnome-extensions disable tiling-assistant@ubuntu.com
