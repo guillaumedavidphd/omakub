@@ -1,4 +1,4 @@
-sudo apt install -y gnome-shell-extension-manager pipx
+sudo apt install -y pipx
 pipx install gnome-extensions-cli --system-site-packages
 
 # Turn off default Ubuntu extensions
@@ -36,6 +36,7 @@ gext install wireless-hid@chlumskyvaclav.gmail.com
 # sudo cp ~/.local/share/gnome-shell/extensions/blur-my-shell\@aunetx/schemas/org.gnome.shell.extensions.blur-my-shell.gschema.xml /usr/share/glib-2.0/schemas/
 # sudo cp ~/.local/share/gnome-shell/extensions/space-bar\@luchrioh/schemas/org.gnome.shell.extensions.space-bar.gschema.xml /usr/share/glib-2.0/schemas/
 # sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
+mkdir -p $HOME/.local/share/glib-2.0/schemas/
 find $HOME/.local/share/gnome-shell/extensions/ -name '*.gschema.xml' -exec cp "{}" "$HOME/.local/share/glib-2.0/schemas" \;
 glib-compile-schemas $HOME/.local/share/glib-2.0/schemas/
 
