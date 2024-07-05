@@ -21,6 +21,6 @@ flatpak install -y flathub net.werwolv.ImHex
 
 cd /tmp
 wget -O naps2.flatpak "https://github.com/cyanfish/naps2/releases/download/v7.4.2/naps2-7.4.2-linux-x64.flatpak"
-flatpak install -y ./naps2.flatpak
+sudo flatpak install -y ./naps2.flatpak
 rm naps2.flatpak
 cd -
