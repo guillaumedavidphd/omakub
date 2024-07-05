@@ -1,4 +1,4 @@
 mkdir -p ~/Applications
 cd ~/Applications
-wget "https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Linux_64bit.AppImage"
+wget -c $(wget -qO- https://api.github.com/repos/arduino/arduino-ide/releases/latest | grep "browser_download_url.*AppImage" | cut -d \" -f4)
 cd -
