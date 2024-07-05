@@ -4,6 +4,7 @@ set -e
 # Needed for all installers
 sudo apt update -y
 sudo apt install -y curl git git-lfs unzip
+sudo apt install -y build-essential procps file
 
 # Ensure computer doesn't go to sleep or lock while installing
 gsettings set org.gnome.desktop.screensaver lock-enabled false
