@@ -6,3 +6,6 @@ cd Jasper-gtk-theme
 cd -
 
 # gsettings set org.gnome.desktop.interface icon-theme "Colloid-"
+# gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+# gsettings set org.gnome.desktop.interface cursor-theme 'Yaru'
+gsettings set org.gnome.desktop.interface gtk-theme "Jasper-Blue-Dark-Dracula"
