@@ -19,6 +19,7 @@ flatpak install -y flathub org.mozilla.Thunderbird
 flatpak install -y flathub org.tigervnc.vncviewer
 flatpak install -y flathub net.werwolv.ImHex
 flatpak install -y flathub io.freetubeapp.FreeTube
+flatpak install -y flathub org.gnome.meld
 
 cd /tmp
 wget -O naps2.flatpak "https://github.com/cyanfish/naps2/releases/download/v7.4.2/naps2-7.4.2-linux-x64.flatpak"
