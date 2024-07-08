@@ -16,12 +16,10 @@
 # 	"org.gnome.Nautilus.desktop"
 # )
 apps=(
-	"firefox_firefox.desktop"
 	"brave-browser.desktop"
 	"org.gnome.Nautilus.desktop"
 	"Alacritty.desktop"
 	"code.desktop"
-	"com.usebottles.bottles.desktop"
 	"com.usebottles.bottles.desktop"
 	"org.remmina.Remmina.desktop"
 	"spotify.desktop"
